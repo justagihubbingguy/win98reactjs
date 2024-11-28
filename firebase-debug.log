@@ -1,0 +1,64 @@
+[debug] [2024-11-28T09:30:26.232Z] ----------------------------------------------------------------------
+[debug] [2024-11-28T09:30:26.237Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-28T09:30:26.238Z] CLI Version:   13.27.0
+[debug] [2024-11-28T09:30:26.238Z] Platform:      win32
+[debug] [2024-11-28T09:30:26.239Z] Node Version:  v20.18.0
+[debug] [2024-11-28T09:30:26.239Z] Time:          Thu Nov 28 2024 13:30:26 GMT+0400 (Gulf Standard Time)
+[debug] [2024-11-28T09:30:26.239Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-28T09:30:26.255Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-28T09:30:26.256Z] > authorizing via signed-in user (selloipllerk@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Hp\win98-reactj
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-11-28T09:31:06.128Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:06.131Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:06.134Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-11-28T09:31:06.134Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"win98-react","name":"wind98"}
+[debug] [2024-11-28T09:31:07.960Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-11-28T09:31:07.960Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.6316970687340343275"}
+[debug] [2024-11-28T09:31:07.963Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:07.963Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:07.963Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6316970687340343275 [none]
+[debug] [2024-11-28T09:31:09.346Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6316970687340343275 200
+[debug] [2024-11-28T09:31:09.347Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6316970687340343275 {"name":"operations/cp.6316970687340343275"}
+[debug] [2024-11-28T09:31:09.854Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-11-28T09:31:09.856Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:09.856Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:10.027Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6316970687340343275 [none]
+[debug] [2024-11-28T09:31:10.470Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6316970687340343275 200
+[debug] [2024-11-28T09:31:10.471Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6316970687340343275 {"name":"operations/cp.6316970687340343275","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-11-28T09:31:11.484Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-11-28T09:31:11.484Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:11.484Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:11.484Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6316970687340343275 [none]
+[debug] [2024-11-28T09:31:11.978Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6316970687340343275 200
+[debug] [2024-11-28T09:31:11.979Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6316970687340343275 {"name":"operations/cp.6316970687340343275","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"314317843473","projectId":"win98-react","lifecycleState":"ACTIVE","name":"wind98","createTime":"2024-11-28T09:31:10.458231Z"}}
+[debug] [2024-11-28T09:31:11.981Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:11.981Z] Checked if tokens are valid: true, expires at: 1732789537537
+[debug] [2024-11-28T09:31:11.982Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/win98-react:addFirebase [none]
+[debug] [2024-11-28T09:31:13.351Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/win98-react:addFirebase 403
+[debug] [2024-11-28T09:31:13.351Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/win98-react:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-28T09:31:13.353Z] Request to https://firebase.googleapis.com/v1beta1/projects/win98-react:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-28T09:31:13.704Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/win98-react:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
